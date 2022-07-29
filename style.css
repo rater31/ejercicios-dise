@@ -1,5 +1,5 @@
-@import url("https://fonts.google.com/specimen/Poppins");
-@import url("https://fonts.google.com/specimen/Open+Sans");
+@import url('https://fonts.googleapi.com/specimen/Poppins');
+@import url('https://fonts.googleapi.com/specimen/Open+Sans');
 body{
     background-image: url("./images/bg-desktop.svg") ;
     background-color: rgb(103,76,180);
@@ -7,11 +7,11 @@ body{
 
 h1 {
     
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 600;
     color:white;
     text-align: left;
-    padding-top: 17%;
+    padding-top: 16%;
     padding-left: 60%;
     padding-right: 12%;
     border: none;
@@ -19,20 +19,22 @@ h1 {
 }
 
 .img{
-    float: center;
-    margin: 14%;
-    margin-left:65px;
-    
+    float: left;
+    width: 60%;
+    display: flex;
+    padding-left: 4.5%;
+    padding-top: 12.5%;
     
 }
 
 .context{
-    padding-top: 0,5%;
-    padding-left: 60%;
-    padding-right: 10%;
+    font-size: 18px;
+    padding-top: 3.5%;
+    padding-left: none;
+    padding-right: 1.2%;
     text-align: left;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open+Sans";
     color: white;
 }
 .attribution { font-size: 11px; text-align: center; }
