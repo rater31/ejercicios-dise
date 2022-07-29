@@ -1,9 +1,40 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+@import url("https://fonts.google.com/specimen/Open+Sans");
 body{
     background-image: url("./images/bg-desktop.svg") ;
-    background-color: violet;
+    background-color: rgb(103,76,180);
 }
 
+h1 {
+    
+    font-family: 'Poppins';
+    font-weight: 600;
+    color:white;
+    text-align: left;
+    padding-top: 17%;
+    padding-left: 60%;
+    padding-right: 12%;
+    border: none;
+    
+}
 
+.img{
+    float: center;
+    margin: 14%;
+    margin-left:65px;
+    
+    
+}
+
+.context{
+    padding-top: 0,5%;
+    padding-left: 60%;
+    padding-right: 10%;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
 .attribution { font-size: 11px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); }
