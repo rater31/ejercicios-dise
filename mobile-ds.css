@@ -1,0 +1,12 @@
+.display-mobile{
+    display: inherit !important;
+}
+
+body{
+    font-family: Arial;
+}
+
+select.display-mobile{
+    font-size: 1.2em;
+    width: 100%;
+}

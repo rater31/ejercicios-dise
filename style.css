@@ -26,12 +26,23 @@ h1 {
     padding-top: 12.5%;
     
 }
-button{
+
+.sub{
+    float: inherit;
+    
+}
+
+.submit{
     border-style: none;
     color: violet;
     border-radius: 30px;
-    padding-right: 2.5%;
-    padding-left:2.5%;
+    padding-right: 4%;
+    padding-left:4%;
+}
+button:hover{
+    color: white;
+    border-style: none;
+    background-color: violet;
 }
 
 .context{
@@ -44,6 +55,42 @@ button{
     font-family: "Open Sans";
     color: white;
 }
-.attribution { font-size: 11px; text-align: center; }
+
+.twitter{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border-radius: 100%;
+    float: right;
+    padding: 8px;
+    margin-top: 6%;
+}
+
+.instagram{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border-radius: 100%;
+    float: right;
+    padding: 8px;
+    margin-right: 15px;
+    margin-top: 6%;
+}
+
+.face{
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border-radius: 100%;
+    float: right;
+    margin-right: 15px;
+    padding: 8px;
+    margin-top: 6%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    padding-top: 10%;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
