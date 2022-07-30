@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');
+.display-desktop{
+    display: inherit !important;
+}
+
 body{
     background-image: url("./images/bg-desktop.svg") ;
     background-color: rgb(103,76,180);
+}
+@media (max-width: 375px) {
+    body{
+            background-color: black;
+            background-image: url("./images/bg-mobile.svg");
+            
+    }
+    
 }
 
 h1 {

@@ -3,6 +3,7 @@
 }
 
 body{
+    background-image: url("./images/bg-mobile.svg");
     font-family: Arial;
 }
 .display-mobile{
