@@ -2,32 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet"  type="text/css" href="style.css" media="screen and (min-width:481px)"/> 
+  <link rel="stylesheet"  type="text/css" href="mobile-ds.css" media="screen and (max-width:480px)"/>
+  <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/2e9f54b1b3.js" crossorigin="anonymous"></script>
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  
+  <div class="cuerpo">
+    <div class="img">
+      <img class="display-desktop"src="./images/illustration-mockups.svg" alt="no hay imagen grande">
+      <!--img class="display-mobile" src="./images/bg-mobile.svg" alt="no hay imagen chica"-->
+     </div>
+    <h1 class="mobile">Build The Community Your Fans Will Love</h1>
+    <p class="context display-mobile">
 
-  Build The Community Your Fans Will Love
+    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion. 
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    Register
     </p>
-  </footer>
+    <div>
+      <!--boton de registrarse-->
+      <button class="submit">
+        <p>Register</p>
+      </button>
+    </div>
+    <!--botton social web-->
+    <div class="social">
+      <div><button  class="twitter"><i class="fa-brands fa-twitter"></i></button></div>
+      <div><button class="instagram"><i class="fa-brands fa-instagram"></i></button></div>
+      <div ><button class="face"><i class="fa-brands fa-facebook-f"></i></button></div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+  
+    </footer>
+  </div>
+  
 </body>
 </html>

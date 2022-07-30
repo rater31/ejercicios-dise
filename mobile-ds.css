@@ -1,0 +1,12 @@
+.display-mobile{
+    display: inherit !important;
+}
+
+body{
+    background-image: url("./images/bg-mobile.svg");
+    font-family: Arial;
+}
+.display-mobile{
+    font-size: 1.2em;
+    width: 100%;
+}
