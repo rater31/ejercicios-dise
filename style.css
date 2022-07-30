@@ -16,17 +16,21 @@ body{
             background-size: cover;    
     }
     .display-desktop{
-        height: 800px;
+        height: 400px;
     }
     .img{
         width: auto;
         max-height: 100%;
+        
+
     
 
     }
+    .display-desktop{
+        text-align: center;
+    }
     .mobile{
-        text-align: center !important;
-        margin-top: 15% !important;
+        margin-top: % !important;
         
     }
     
