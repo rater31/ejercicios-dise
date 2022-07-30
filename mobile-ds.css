@@ -5,8 +5,7 @@
 body{
     font-family: Arial;
 }
-
-select.display-mobile{
+.display-mobile{
     font-size: 1.2em;
     width: 100%;
 }
