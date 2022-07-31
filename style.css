@@ -11,7 +11,7 @@ body{
 @media (max-width: 800px) {
     body{
 
-            background-color: black;
+            background-color: rgb(103,76,180);
             background-image: url("./images/bg-mobile.svg");
             background-size: cover;    
     }
@@ -19,9 +19,10 @@ body{
         height: 400px;
     }
     .display-imag{
+
         position: absolute;
-        width: 100% ;
-        background-color: orange;
+        width: 90% ;
+    
         
 
     
@@ -29,21 +30,34 @@ body{
     }
     .display-mobile{
         position: relative;
-        font-size: 1.2em;
+        font-weight: 400;
         width: 100%;
-        background-color: aqua;
-        top: 400px;
+
+        top: 350px;
     }
     .mobile{
-        margin: 10%;
-        padding-top: 1%;
+        padding-bottom: 40px;
+        
+        padding-left: inherit !important;
+        padding-right: inherit !important;
+        margin-left: auto;
+        margin-top: auto;
+        margin-right: auto;
+        text-align: start !important;
         font-weight: 600;
-        top: 450px;
+        top: 350px;
         position: relative;
-        width: 21%;
+        width: 70%;
         font-family: Arial;
         font-size: 100%;
-        background-color: blueviolet;
+    
+    }
+    .attribution{
+        display: none;
+    }
+    .submit{
+        margin-top: 75%;
+        margin-left: 40%;
     }
     
 }
