@@ -18,20 +18,32 @@ body{
     .display-desktop{
         height: 400px;
     }
-    .img{
-        width: auto;
-        max-height: 100%;
+    .display-imag{
+        position: absolute;
+        width: 100% ;
+        background-color: orange;
         
 
     
 
     }
-    .display-desktop{
-        text-align: center;
+    .display-mobile{
+        position: relative;
+        font-size: 1.2em;
+        width: 100%;
+        background-color: aqua;
+        top: 400px;
     }
     .mobile{
-        margin-top: % !important;
-        
+        margin: 10%;
+        padding-top: 1%;
+        font-weight: 600;
+        top: 450px;
+        position: relative;
+        width: 21%;
+        font-family: Arial;
+        font-size: 100%;
+        background-color: blueviolet;
     }
     
 }
