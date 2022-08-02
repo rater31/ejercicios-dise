@@ -31,7 +31,7 @@ body{
     .display-mobile{
         position: relative;
         font-weight: 400;
-        width: 100%;
+        width: 100px;
 
         top: 350px;
     }
@@ -68,19 +68,19 @@ h1 {
     font-weight: 600;
     color:white;
     text-align: left;
-    padding-top: 16%;
-    padding-left: 60%;
-    padding-right: 10%;
+    padding-top: 190px;
+    padding-left: 600px;
+    padding-right: 10px;
     border: none;
     
 }
 
 .img{
     float: left;
-    width: 60%;
+    width: 750px;
     display: flex;
-    padding-left: 4.5%;
-    padding-top: 12.5%;
+    padding-left: 60px;
+    padding-top: 170px;
     
 }
 
@@ -93,8 +93,8 @@ h1 {
     border-style: none;
     color: violet;
     border-radius: 30px;
-    padding-right: 4%;
-    padding-left:4%;
+    padding-right: 40px;
+    padding-left:40px;
 }
 button:hover{
     color: white;
@@ -104,9 +104,9 @@ button:hover{
 
 .context{
     font-size: 18px;
-    padding-top: 1.5%;
+    padding-top: 30px;
     padding-left: none;
-    padding-right: 1%;
+    padding-right: 50px;
     text-align: left;
     font-weight: 400;
     font-family: "Open Sans";
