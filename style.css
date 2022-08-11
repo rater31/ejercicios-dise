@@ -128,12 +128,12 @@ button:hover{
     }
     .social{
         padding: 0%;
-        width: 80vw;
+        width: 50vw;
     }
 
     .face, .instagram, .twitter{
         align-items: center;
-        font-size: 100px;
+        font-size: 40px;
         align-content: center;
         margin: 40px;
     }
