@@ -8,59 +8,7 @@ body{
     background-image: url("./images/bg-desktop.svg") ;
     background-color: rgb(103,76,180);
 }
-@media (max-width: 900px) {
-    body{
 
-            background-color: rgb(103,76,180);
-            background-image: url("./images/bg-mobile.svg");
-            background-size: cover;    
-    }
-    .display-desktop{
-        height: 400px;
-    }
-    .display-imag{
-
-        position: absolute;
-        width: 90% ;
-    
-        
-
-    
-
-    }
-    .display-mobile{
-        position: relative;
-        font-weight: 400;
-        width: 100px;
-
-        top: 350px;
-    }
-    .mobile{
-        padding-bottom: 40px;
-        
-        padding-left: inherit !important;
-        padding-right: inherit !important;
-        margin-left: auto;
-        margin-top: auto;
-        margin-right: auto;
-        text-align: start !important;
-        font-weight: 600;
-        top: 350px;
-        position: relative;
-        width: 70%;
-        font-family: Arial;
-        font-size: 100%;
-    
-    }
-    .attribution{
-        display: none;
-    }
-    .submit{
-        margin-top: 75%;
-        margin-left: 40%;
-    }
-    
-}
 
 h1 {
     
@@ -151,3 +99,63 @@ button:hover{
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 1000px) {
+    .img{
+        padding: 0vw;
+        margin: 0%;
+        margin-top: 10vw;
+        margin-left: 15vw;
+        align-content: center;
+        align-items: center;
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+    .mobile{
+        margin-top: 9px;
+        padding: 0%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .submit {
+        align-content: center;
+        align-items: center;
+        padding-inline: 10%;
+        font-size: 40px;
+        margin-left: 30vw;
+    }
+    .social{
+        padding: 0%;
+        width: 80vw;
+    }
+
+    .face, .instagram, .twitter{
+        align-items: center;
+        font-size: 100px;
+        align-content: center;
+        margin: 40px;
+    }
+
+    .face,.instagram{
+        padding-right:25px ;
+        padding-left:25px ;
+    }
+
+    .attribution{
+        display: none;
+    }
+    body{
+        background-image: url("./images/bg-mobile.svg");
+        width: 100vw;
+        align-items: center;
+        align-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .context{
+        padding: 0%;
+        margin: auto;
+        margin-bottom: 10vw;
+    }
+}
