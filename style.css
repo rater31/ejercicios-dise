@@ -111,37 +111,41 @@ button:hover{
         align-items: center;
         width: 90vw;
         flex-wrap: wrap;
+
     }
     .mobile{
-        margin-top: 9px;
+        margin-top: 150px;
         padding: 0%;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-top: 700px;
+        font-size: 50px;
         text-align: center;
         flex-wrap: wrap;
     }
     .submit {
         align-content: center;
         align-items: center;
-        padding-inline: 10%;
+        padding-inline: 25%;
         font-size: 40px;
-        margin-left: 30vw;
+        margin-left: 21vw;
         margin-bottom: 100px;
+        border-radius: 90px;
     }
     .social{
         padding: 0%;
-        width: 50vw;
+        width: 75vw;
     }
 
     .face, .instagram, .twitter{
         align-items: center;
         font-size: 40px;
         align-content: center;
-        margin: 40px;
+        margin: 15px;
+        padding: 5%;
     }
 
-    .face,.instagram{
-        padding-right:25px ;
-        padding-left:25px ;
-    }
+   
 
     .attribution{
         display: none;
@@ -149,14 +153,15 @@ button:hover{
     body{
         background-image: url("./images/bg-mobile.svg");
         width: 100vw;
-        align-items: center;
-        align-content: center;
         background-size: cover;
         background-repeat: no-repeat;
+        background-color: rgb(103, 76, 180);
     }
     .context{
         padding: 0%;
-        margin: auto;
+        margin: 80px;
         margin-bottom: 10vw;
+        text-align: center;
+        font-size: 20px;
     }
-}
+} 
